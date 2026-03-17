@@ -1,0 +1,19 @@
+quests:
+  architect_draft:
+    display:
+      name: "&6The Architect's First Draft"
+      lore:
+        - "&7Construct a wooden shelter."
+        - "&7(Place 50 Wood Planks)"
+        - ""
+        - "&eReward:"
+        - "&a20 Levels of XP"
+    tasks:
+      build_shelter:
+        type: "blockplace"
+        block: "OAK_PLANKS"
+        amount: 50
+    rewards:
+      xp_reward:
+        type: "command"
+        command: "levels addxp 20 {player}"
