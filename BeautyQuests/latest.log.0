@@ -1,0 +1,157 @@
+---- BEAUTYQUESTS LOGGER - OPENED Tue Mar 17 17:53:37 IST 2026 ----
+[17:55:00] [BeautyQuests] [INFO] Enabling BeautyQuests v2.0.0
+[17:55:00] [BeautyQuests] [INFO] ------------ BeautyQuests ------------
+[17:55:00] [BeautyQuests] [DEBUG] Paper detected.
+[17:55:01] [BeautyQuests] [DEBUG] Server version: 1.21.11-126-3f5728e (MC: 1.21.11)
+[17:55:01] [BeautyQuests] [INFO] Loaded valid Paper internals access.
+[17:55:01] [BeautyQuests] [DEBUG] Loading data file, last time edited : Tue Mar 17 07:15:52 IST 2026
+[17:55:02] [BeautyQuests] [INFO] Loaded language en_US (0.092s)!
+[17:55:02] [BeautyQuests] [DEBUG] Loaded start particles: DUST in shape POINT with color R255 G255 B0
+[17:55:02] [BeautyQuests] [DEBUG] Loaded talk particles: HAPPY_VILLAGER in shape BAR
+[17:55:02] [BeautyQuests] [DEBUG] Loaded next particles: SMOKE in shape SPOT
+[17:55:02] [API] [DEBUG] Message sender has been registered: fr.skytasul.quests.npcs.dialogs.ChatMessageSender
+[17:55:02] [BeautyQuests] [DEBUG] Initializing default stage types.
+[17:55:02] [Stages] [DEBUG] Registered (Mobs, 0)
+[17:55:02] [Stages] [DEBUG] Registered (Mine, 1)
+[17:55:02] [Stages] [DEBUG] Registered (Place, 2)
+[17:55:02] [Stages] [DEBUG] Registered (Chat, 3)
+[17:55:02] [Stages] [DEBUG] Registered (InteractBlock, 4)
+[17:55:02] [Stages] [DEBUG] Registered (InteractLocation, 5)
+[17:55:02] [Stages] [DEBUG] Registered (Fish, 6)
+[17:55:02] [Stages] [DEBUG] Registered (Melt, 7)
+[17:55:02] [Stages] [DEBUG] Registered (Enchant, 8)
+[17:55:02] [Stages] [DEBUG] Registered (Craft, 9)
+[17:55:02] [Stages] [DEBUG] Registered (Bucket, 10)
+[17:55:02] [Stages] [DEBUG] Registered (StageLocation, 11)
+[17:55:02] [Stages] [DEBUG] Registered (PlayTime, 12)
+[17:55:02] [Stages] [DEBUG] Registered (Breed, 13)
+[17:55:02] [Stages] [DEBUG] Registered (Tame, 14)
+[17:55:02] [Stages] [DEBUG] Registered (Death, 15)
+[17:55:02] [Stages] [DEBUG] Registered (DealDamage, 16)
+[17:55:02] [Stages] [DEBUG] Registered (EatDrink, 17)
+[17:55:02] [BeautyQuests] [DEBUG] Initializing default quest options.
+[17:55:02] [API] [DEBUG] Quest option registered (id: customOrder)
+[17:55:02] [API] [DEBUG] Quest option registered (id: pool)
+[17:55:02] [API] [DEBUG] Quest option registered (id: name)
+[17:55:02] [API] [DEBUG] Quest option registered (id: description)
+[17:55:02] [API] [DEBUG] Quest option registered (id: customItem)
+[17:55:02] [API] [DEBUG] Quest option registered (id: confirmMessage)
+[17:55:02] [API] [DEBUG] Quest option registered (id: bypassLimit)
+[17:55:02] [API] [DEBUG] Quest option registered (id: startableFromGUI)
+[17:55:02] [API] [DEBUG] Quest option registered (id: failOnDeath)
+[17:55:02] [API] [DEBUG] Quest option registered (id: cancellable)
+[17:55:02] [API] [DEBUG] Quest option registered (id: cancelActions)
+[17:55:02] [API] [DEBUG] Quest option registered (id: scoreboard)
+[17:55:02] [API] [DEBUG] Quest option registered (id: hideNoRequirements)
+[17:55:02] [API] [DEBUG] Quest option registered (id: auto)
+[17:55:02] [API] [DEBUG] Quest option registered (id: repeatable)
+[17:55:02] [API] [DEBUG] Quest option registered (id: timer)
+[17:55:02] [API] [DEBUG] Quest option registered (id: visibility)
+[17:55:02] [API] [DEBUG] Quest option registered (id: endSound)
+[17:55:02] [API] [DEBUG] Quest option registered (id: firework)
+[17:55:02] [API] [DEBUG] Quest option registered (id: requirements)
+[17:55:02] [API] [DEBUG] Quest option registered (id: startRewards)
+[17:55:02] [API] [DEBUG] Quest option registered (id: startMessage)
+[17:55:02] [API] [DEBUG] Quest option registered (id: endRewards)
+[17:55:02] [API] [DEBUG] Quest option registered (id: endMsg)
+[17:55:02] [BeautyQuests] [DEBUG] Initializing default item comparisons.
+[17:55:02] [API] [DEBUG] Item comparison registered (id: bukkit)
+[17:55:02] [API] [DEBUG] Item comparison registered (id: customBukkit)
+[17:55:02] [API] [DEBUG] Item comparison registered (id: material)
+[17:55:02] [API] [DEBUG] Item comparison registered (id: name)
+[17:55:02] [API] [DEBUG] Item comparison registered (id: lore)
+[17:55:02] [API] [DEBUG] Item comparison registered (id: enchants)
+[17:55:02] [API] [DEBUG] Item comparison registered (id: repair)
+[17:55:02] [BeautyQuests] [DEBUG] Initializing default rewards.
+[17:55:02] [Registry rewards] [DEBUG] New object: id commandReward, class fr.skytasul.quests.rewards.CommandReward
+[17:55:02] [Registry rewards] [DEBUG] New object: id itemReward, class fr.skytasul.quests.rewards.ItemReward
+[17:55:02] [Registry rewards] [DEBUG] New object: id removeItemsReward, class fr.skytasul.quests.rewards.RemoveItemsReward
+[17:55:02] [Registry rewards] [DEBUG] New object: id textReward, class fr.skytasul.quests.rewards.MessageReward
+[17:55:02] [Registry rewards] [DEBUG] New object: id tpReward, class fr.skytasul.quests.rewards.TeleportationReward
+[17:55:02] [Registry rewards] [DEBUG] New object: id expReward, class fr.skytasul.quests.rewards.XPReward
+[17:55:02] [Registry rewards] [DEBUG] New object: id checkpointReward, class fr.skytasul.quests.rewards.CheckpointReward
+[17:55:02] [Registry rewards] [DEBUG] New object: id questStopReward, class fr.skytasul.quests.rewards.QuestStopReward
+[17:55:02] [Registry rewards] [DEBUG] New object: id requirementDependentReward, class fr.skytasul.quests.rewards.RequirementDependentReward
+[17:55:02] [Registry rewards] [DEBUG] New object: id randomReward, class fr.skytasul.quests.rewards.RandomReward
+[17:55:02] [Registry rewards] [DEBUG] New object: id wait, class fr.skytasul.quests.rewards.WaitReward
+[17:55:02] [Registry rewards] [DEBUG] New object: id titleReward, class fr.skytasul.quests.rewards.TitleReward
+[17:55:02] [BeautyQuests] [DEBUG] Initializing default requirements.
+[17:55:02] [Registry requirements] [DEBUG] New object: id logicalOr, class fr.skytasul.quests.requirements.logical.LogicalOrRequirement
+[17:55:02] [Registry requirements] [DEBUG] New object: id questRequired, class fr.skytasul.quests.requirements.QuestRequirement
+[17:55:02] [Registry requirements] [DEBUG] New object: id levelRequired, class fr.skytasul.quests.requirements.LevelRequirement
+[17:55:02] [Registry requirements] [DEBUG] New object: id permissionRequired, class fr.skytasul.quests.requirements.PermissionsRequirement
+[17:55:02] [Registry requirements] [DEBUG] New object: id scoreboardRequired, class fr.skytasul.quests.requirements.ScoreboardRequirement
+[17:55:02] [Registry requirements] [DEBUG] New object: id equipmentRequired, class fr.skytasul.quests.requirements.EquipmentRequirement
+[17:55:02] [BeautyQuests] [DEBUG] Initializing default stage options.
+[17:55:02] [Registry stage-options-MOBS] [DEBUG] New object: id progressbar, class fr.skytasul.quests.stages.options.StageOptionProgressBar
+[17:55:02] [Registry stage-options-MINE] [DEBUG] New object: id progressbar, class fr.skytasul.quests.stages.options.StageOptionProgressBar
+[17:55:02] [Registry stage-options-PLACE_BLOCKS] [DEBUG] New object: id progressbar, class fr.skytasul.quests.stages.options.StageOptionProgressBar
+[17:55:02] [Registry stage-options-FISH] [DEBUG] New object: id progressbar, class fr.skytasul.quests.stages.options.StageOptionProgressBar
+[17:55:02] [Registry stage-options-MELT] [DEBUG] New object: id progressbar, class fr.skytasul.quests.stages.options.StageOptionProgressBar
+[17:55:02] [Registry stage-options-ENCHANT] [DEBUG] New object: id progressbar, class fr.skytasul.quests.stages.options.StageOptionProgressBar
+[17:55:02] [Registry stage-options-CRAFT] [DEBUG] New object: id progressbar, class fr.skytasul.quests.stages.options.StageOptionProgressBar
+[17:55:02] [Registry stage-options-BUCKET] [DEBUG] New object: id progressbar, class fr.skytasul.quests.stages.options.StageOptionProgressBar
+[17:55:02] [Registry stage-options-PLAY_TIME] [DEBUG] New object: id progressbar, class fr.skytasul.quests.stages.options.StageOptionProgressBar
+[17:55:02] [Registry stage-options-BREED] [DEBUG] New object: id progressbar, class fr.skytasul.quests.stages.options.StageOptionProgressBar
+[17:55:02] [Registry stage-options-TAME] [DEBUG] New object: id progressbar, class fr.skytasul.quests.stages.options.StageOptionProgressBar
+[17:55:02] [Registry stage-options-DEAL_DAMAGE] [DEBUG] New object: id progressbar, class fr.skytasul.quests.stages.options.StageOptionProgressBar
+[17:55:02] [Registry stage-options-EAT_DRINK] [DEBUG] New object: id progressbar, class fr.skytasul.quests.stages.options.StageOptionProgressBar
+[17:55:02] [BeautyQuests] [DEBUG] Initializing default miscellenaeous.
+[17:55:02] [API] [DEBUG] Mob factory registered (id: bukkitEntity)
+[17:55:02] [Registry quester-strategies] [DEBUG] New object: id player, class fr.skytasul.quests.quests.questers.PlayerQuesterStrategy
+[17:55:02] [API] [DEBUG] Quest option registered (id: questerStrategy)
+[17:55:03] [Integrations] [DEBUG] Hooked into [Vault] v1.7.3-b131
+[17:55:03] [Integrations] [DEBUG] Hooked into [PlaceholderAPI] v2.12.2
+[17:55:03] [Integrations] [DEBUG] Hooked into [WorldGuard] v7.0.15+2347-5fafea6
+[17:55:03] [Registry rewards] [DEBUG] New object: id moneyReward, class fr.skytasul.quests.integrations.vault.economy.MoneyReward
+[17:55:03] [Registry rewards] [DEBUG] New object: id permReward, class fr.skytasul.quests.integrations.vault.permission.PermissionReward
+[17:55:03] [Registry requirements] [DEBUG] New object: id moneyRequired, class fr.skytasul.quests.integrations.vault.economy.MoneyRequirement
+[17:55:03] [BeautyQuests] [INFO] Placeholders registered !
+[17:55:03] [Registry requirements] [DEBUG] New object: id placeholderRequired, class fr.skytasul.quests.integrations.placeholders.PlaceholderRequirement
+[17:55:03] [BeautyQuests] [DEBUG] Now using WorldGuard entry API.
+[17:55:03] [Stages] [DEBUG] Registered (Find, 18)
+[17:55:03] [Registry requirements] [DEBUG] New object: id regionRequired, class fr.skytasul.quests.integrations.worldguard.RegionRequirement
+[17:55:03] [BeautyQuests] [DEBUG] Started bStats metrics
+[17:55:03] [BeautyQuests] [DEBUG] Starting Spigot updater
+[17:55:27] [BeautyQuests] [DEBUG] Loaded 0 pools.
+[17:55:27] [Quests] [SEVERE] An error occurred while loading quest file quest1.yml
+ERROR #0:
+fr.skytasul.quests.api.data.DataLoadingException: Quest doesn't have an id.
+	at beautyquests-2.0.0.jar//fr.skytasul.quests.structure.QuestImplementation.loadFromFile(QuestImplementation.java:666)
+	at beautyquests-2.0.0.jar//fr.skytasul.quests.structure.QuestsManagerImplementation.<init>(QuestsManagerImplementation.java:52)
+	at beautyquests-2.0.0.jar//fr.skytasul.quests.BeautyQuests.loadAllDatas(BeautyQuests.java:609)
+	at beautyquests-2.0.0.jar//fr.skytasul.quests.BeautyQuests.finishLoad(BeautyQuests.java:571)
+	at beautyquests-2.0.0.jar//fr.skytasul.quests.BeautyQuests.lambda$onEnable$0(BeautyQuests.java:182)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474)
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1267)
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:388)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[17:55:27] [Quests] [DEBUG] Finished loading 2 quests
+[17:55:27] [QuesterManager] [DEBUG] Locking quester manager.
+[17:55:27] [YamlDataManager] [DEBUG] 3 quester identifiers loaded
+[17:55:27] [ScoreboardManager] [DEBUG] Registered 5 lines in scoreboard
+[17:55:27] [BeautyQuests] [INFO] 2 quests loaded (0.342s)!
+[17:55:27] [BeautyQuests] [INFO] Periodic saves task started (18000 ticks). Task ID: 98
+[17:58:16] [PlayerManager] [DEBUG] Loading quester for hpbeast007 (identifier: 7a0f1094-48b4-3877-9c6c-c4966c9bfa09)
+[17:59:25] [PlayerManager] [DEBUG] Loading quester for hridhaan086833 (identifier: 41ba4cba-7ba9-3bff-827b-990043846f1d)
+[18:03:09] [PlayerManager] [DEBUG] Unloading quester for hridhaan086833
+[18:03:15] [PlayerManager] [DEBUG] Loading quester for hridhaan086833 (identifier: 41ba4cba-7ba9-3bff-827b-990043846f1d)
+[18:15:54] [QuesterManager] [DEBUG] Saving questers...
+[18:15:55] [BeautyQuests] [DEBUG] Saved datas (0.585s)!
+[18:15:55] [BeautyQuests] [INFO] Datas saved ~ periodic save
+[18:30:28] [PlayerManager] [DEBUG] Unloading quester for hridhaan086833
+[18:30:34] [PlayerManager] [DEBUG] Loading quester for hridhaan086833 (identifier: 41ba4cba-7ba9-3bff-827b-990043846f1d)
+[18:34:03] [QuesterManager] [DEBUG] Saving questers...
+[18:34:03] [BeautyQuests] [DEBUG] Saved datas (0.157s)!
+[18:34:03] [BeautyQuests] [INFO] Datas saved ~ periodic save
+[18:38:47] [PlayerManager] [DEBUG] Unloading quester for hpbeast007
+[18:38:54] [BeautyQuests] [INFO] Disabling BeautyQuests v2.0.0
+[18:38:54] [BeautyQuests] [INFO] Periodic saves task stopped.
+[18:38:54] [ScoreboardManager] [DEBUG] 1 scoreboards deleted.
+[18:38:54] [QuesterManager] [DEBUG] Saving questers...
+[18:38:54] [BeautyQuests] [DEBUG] Saved datas (0.012s)!
+[18:38:54] [BeautyQuests] [DEBUG] Unregistered from WorldGuard entry API.
+Logger was open during 45 minutes.
+---- BEAUTYQUESTS LOGGER - CLOSED Tue Mar 17 18:38:54 IST 2026 ----

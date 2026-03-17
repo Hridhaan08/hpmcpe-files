@@ -1,0 +1,23 @@
+quests:
+  testquest:
+    display:
+      name: "&aTest Quest"
+      lore:
+        - "&7This is a testing quest."
+        - ""
+        - "&7Objective:"
+        - "&fBreak 10 Stone blocks"
+        - ""
+        - "&eReward:"
+        - "&a$1000"
+
+    tasks:
+      breakstone:
+        type: "blockbreak"
+        block: "STONE"
+        amount: 10
+
+    rewards:
+      money:
+        type: "command"
+        command: "eco give %player% 1000"

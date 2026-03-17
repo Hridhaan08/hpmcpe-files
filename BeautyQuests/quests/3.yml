@@ -1,0 +1,18 @@
+name: The Lumber Run
+manager:
+  branches:
+    '0':
+      stages:
+        '0':
+          objects:
+            ddd36de5-c82f-3aa9-a933-81a31857ffb9:
+              amount: 128
+              object: :OAK_LOG
+          stageType: MINE
+          rewards:
+          - id: commandReward
+            commands:
+            - console: false
+              label: levels addxp 15 {player}
+      endingStages: {}
+id: 3

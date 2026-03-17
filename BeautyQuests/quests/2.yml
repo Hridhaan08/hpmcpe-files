@@ -1,0 +1,21 @@
+startableFromGUI: true
+name: example
+manager:
+  branches:
+    '0':
+      stages:
+        '0':
+          objects:
+            000d9100-1178-3d88-a4c0-f689f86078b2:
+              amount: 10
+              object: :STONE
+          stageType: MINE
+          customText: kuch nahi test
+          text: lodu ne quest liya
+          rewards:
+          - id: commandReward
+            commands:
+            - console: true
+              label: eco give %player% 1000
+      endingStages: {}
+id: 2
